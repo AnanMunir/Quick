@@ -1,0 +1,201 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+	border-bottom: 1px solid #eef0f3;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+    list-style: none
+
+}
+.menu ul li a{
+	font-size: 18px;
+	color: #0d2455;
+	text-transform: capitalize;
+	display: inline-block;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #0084ff;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding: 50px;
+}
+.container2{
+	width: 60%;
+	margin: 0 auto;
+}
+.b_text{
+	text-align: center;
+}
+.b_text h1{
+	margin: 0px 96px 30px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	color: #0a2152;
+	line-height: 70px;
+}
+.b_text h1 span{
+	color: #0084ff;
+}
+.b_text p{
+    font-size: 17px;
+    margin: 0 25px 30px;
+}
+.b_img{
+	width: 75%;
+	margin: 0 auto;
+}
+.b_img img{
+	width: 100%;
+}
+
+
+/*banner end*/
+
+/*success start*/
+.success{
+	padding: 50px 0;
+	/*border: 1px solid red;*/
+}
+.s_content{
+	padding: 0px 35px;
+    overflow: hidden;
+}
+.s_left{
+	width: 45%;
+	float: left;
+	padding: 10px 20px;
+
+}
+.s_left h2{
+	text-align: right;
+    font-size: 39px;
+    margin: 0;
+    color: #ED1C5D;
+}
+.s_left p{
+	font-size: 16px;
+    color: #0C2354;
+}
+.s_right{
+	width: 45%;
+    float: right;
+    padding: 10px 20px;
+
+}
+.s_right h1{
+	margin: 0;
+    font-size: 47px;
+    color: #0C2354;
+}
+/*success end*/
+/*service start*/
+.service{
+	padding: 50px 0;
+}
+.s-wrapper{
+	overflow: hidden;
+}
+.red{
+	background-color: #fdebed;
+}
+.green{
+	background-color: #ebf9f4;
+}
+.yel{
+	background-color: #fff7e8;
+}
+.s-single{
+	width: 25%;
+    padding: 50px 43px;
+    float: left;
+    margin-right: 40px;
+}
+.s-single:last-child{
+	margin-right: 0;
+}
+.s-img{}
+
+.s-img img{
+	width: 100%;
+}
+.s-text{}
+
+.s-text h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #0d2455;
+}
+.s-text p{
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+}
+/*service end*/
+/*footer start */
+footer{
+	background-color: #008aff;
+	padding: 25px 0;
+}
+.f-text{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #ffff;
+}
+.f-text p{
+	margin: 0;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
